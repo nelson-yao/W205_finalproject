@@ -1,0 +1,4 @@
+pandas
+scrapy
+numpy
+psycopg2
