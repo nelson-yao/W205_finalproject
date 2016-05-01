@@ -2,3 +2,4 @@ pandas
 scrapy
 numpy
 psycopg2
+re
