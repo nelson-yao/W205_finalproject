@@ -1,6 +1,7 @@
-drop table marvelcharacter;
-drop table marveledges;
-drop table sumedge;
+drop table if exists marvelcharacter_test;
+drop table if exists marveledges_test;
+drop table if exists sumedge_test;
+drop database if exists test
 
 CREATE DATABASE test;
 \c marvel;
