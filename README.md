@@ -82,3 +82,10 @@ Under folder ``` original ```, there are scripts that correspond to the scripts 
 - database_full.sql        : builds the database, runs in the same way as the counterpart in ```Test```
 - fullquery.py             : used to query results from the database, used in the same way as ```testquey.py```
 - marvelquery.sql          : contains the query used to generate the data for the presentation
+
+### Machine learning
+
+I attempted to build a model that can predict comic booko sales based its character appearances, but it did not work out well. I tried suppor vector regression, linear regression and random forest, the best R2 scores I can get was 11%. See ```ML_train.py``` for details. This scrip requires sci-kit learn which can be installed using:
+```
+pip install -U scikit-learn
+```
