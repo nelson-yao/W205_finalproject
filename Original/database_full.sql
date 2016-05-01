@@ -1,6 +1,7 @@
-drop table marvelcharacter;
-drop table marveledges;
-drop table sumedge;
+drop table if exists marvelcharacter;
+drop table if exists marveledges;
+drop table if exists sumedge;
+drop database if exists marvel;
 
 
 
